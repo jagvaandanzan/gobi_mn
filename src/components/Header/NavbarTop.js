@@ -1,9 +1,7 @@
 import React from "react";
 import LanguageIcon from "@mui/icons-material/Language";
-import { Container } from "../styles/Container.style";
-import { StyledNavbarTop, StyledBackground } from "../styles/NavbarTop.style";
-import { Text } from "../styles/Text.style";
-import { Button } from "../styles/Button.style";
+import { Container, Button, Text } from "../styles/Global.style";
+import { StyledNavbarTop, StyledBackground } from "./NavbarTop.style";
 
 export default function NavbarTop() {
   return (
@@ -16,7 +14,7 @@ export default function NavbarTop() {
           </div>
           <div className="nav-middle">
             <Text>RETURNING AN ORDER?</Text>
-            <a href="#">Click for more info</a>
+            <a href="*">Click for more info</a>
           </div>
           <div spacing="10px">
             <Button color="white" bgColor="transparent">

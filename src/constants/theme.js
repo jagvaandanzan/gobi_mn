@@ -3,7 +3,8 @@ export const theme = {
     fontColor: {
       white: "#ffffff",
       black: "#000000",
-      red: "#B00020",
+      red1: "#B00020",
+      red2: "#E85757",
       fc63: "#636363",
       fc58: "#585858",
       fc4F: "#4F5255",
