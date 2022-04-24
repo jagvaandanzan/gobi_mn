@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledCategories = styled.div`
   display: flex;
   position: relative;
+  justify-content: center;
   margin: 100px 0 200px 0;
   .cat-name {
     position: absolute;
